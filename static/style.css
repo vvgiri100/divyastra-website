@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background: linear-gradient(135deg, #0b3d91, #1e88e5);
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.container h1 {
+    font-size: 3rem;
+}
+
+.container p {
+    margin: 15px 0;
+    font-size: 1.2rem;
+}
+
+.btn {
+    display: inline-block;
+    background: orange;
+    color: white;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+.services,
+.about,
+.contact {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.card {
+    width: 300px;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.15);
+}
+
+.about ul {
+    list-style: none;
+    margin-top: 20px;
+}
+
+.about li {
+    margin: 10px 0;
+}
+
+.contact {
+    background: #f4f4f4;
+}
+
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+.navbar {
+    background: #0b3d91;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.nav-left .logo {
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.nav-right a {
+    color: white;
+    text-decoration: none;
+    margin-left: 25px;
+    font-weight: 500;
+}
+
+.nav-right a:hover,
+.nav-left .logo:hover {
+    color: #ffb300;
+}
